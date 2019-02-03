@@ -18,8 +18,6 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
   
-- script: |
-    pushd '$(projectRoot)'
-    python test_2.py
+- script: python src/test_2.py
   condition: succeededOrFailed()
   displayName: ' project veronica'
