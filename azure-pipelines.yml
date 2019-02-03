@@ -18,6 +18,6 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
   
-- script: python python-test-\test_2
+- script: python test_2.py
   condition: succeededOrFailed()
   displayName: ' project veronica'
