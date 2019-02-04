@@ -26,6 +26,7 @@ steps:
 - bash: 'pytest --junitxml=$(Build.StagingDirectory)/010.xml'
   workingDirectory:
   displayName: 'Run test'
+  continueOnError: true
  
  
 - task: PublishTestResults@2
