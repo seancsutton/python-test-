@@ -18,8 +18,7 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-- script: |
-    python test_2
+- script: python test_2
   condition: succeededOrFailed()
   displayName: 'Run tests'
 
