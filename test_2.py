@@ -4,4 +4,4 @@ from test_1 import add
 
 class First_test(unittest.TestCase):
     def test_add(self):
-        self.assertEqual(add(1,3), 4)
+        self.assertEqual(add(1,4), 4)
