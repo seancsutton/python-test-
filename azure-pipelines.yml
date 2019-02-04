@@ -24,7 +24,7 @@ steps:
  
  
 - bash: 'pytest --junitxml=$(Build.StagingDirectory)/010.xml'
-  workingDirectory: 'test_2.py'
+  workingDirectory:
   displayName: 'Run test'
  
  
