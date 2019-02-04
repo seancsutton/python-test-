@@ -31,7 +31,7 @@ steps:
  
 - task: PublishTestResults@2
   displayName: 'Publish test result /010.xml'
-  AlwaysRun: 'true'
+  condition: always()
   inputs:
     failOnStandardError: 'true'
     testResultsFiles: '$(Build.StagingDirectory)/010.xml'
