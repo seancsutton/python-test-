@@ -2,7 +2,6 @@
 from test_1 import add
 class TestClass(object):
     def test_one(self):
-       
-        assert add(1,3) == 4
+        assert add(1,3) == 5
 
 
