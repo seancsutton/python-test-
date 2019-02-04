@@ -22,3 +22,4 @@ steps:
     python test_2
   condition: succeededOrFailed()
   displayName: 'Run tests'
+
